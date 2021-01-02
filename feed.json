@@ -14,7 +14,7 @@
             "url": "https://zloboslav.github.io/cyberpunk-2077-autohotkey-script.html",
             "title": "Cyberpunk 2077 AutoHotKey script",
             "summary": "This script contains macros for various movement exploits in Cyberpunk 2077. Please open the script with a text editor and refer to&hellip;",
-            "content_html": "<p>This script contains macros for various movement exploits in Cyberpunk 2077.</p>\n<p>Please open the script with a text editor and refer to the comments inside explaining its usage and configuration. </p>\n<p>Click the link below to obtain it:</p>\n<p><a href=\"https://github.com/zloboslav/cyberpunk-scripts/archive/main.zip\" target=\"_blank\" rel=\"noopener noreferrer\">Download</a></p>",
+            "content_html": "<p>This script contains macros for various movement exploits in Cyberpunk 2077.</p>\n<p>Please open the script with a text editor and refer to the comments inside explaining its usage and configuration. </p>\n<p>This script was tested with Cyberpunk 2077 version 1.06.</p>\n<p>Click the link below to obtain it:</p>\n<p><a href=\"https://github.com/zloboslav/cyberpunk-scripts/archive/main.zip\" target=\"_blank\" rel=\"noopener noreferrer\">Download</a></p>",
             "author": {
                 "name": "zloboslav"
             },
@@ -22,7 +22,7 @@
                    "Cyberpunk 2077"
             ],
             "date_published": "2021-01-02T05:33:30+02:00",
-            "date_modified": "2021-01-02T05:40:41+02:00"
+            "date_modified": "2021-01-02T05:46:00+02:00"
         }
     ]
 }

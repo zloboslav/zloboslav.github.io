@@ -3,7 +3,7 @@
     <title>zloboslav.github.io</title>
     <link href="https://zloboslav.github.io/feed.xml" rel="self" />
     <link href="https://zloboslav.github.io" />
-    <updated>2021-01-02T05:40:41+02:00</updated>
+    <updated>2021-01-02T05:46:00+02:00</updated>
     <author>
         <name>zloboslav</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://zloboslav.github.io/cyberpunk-2077-autohotkey-script.html</id>
             <category term="Cyberpunk 2077"/>
 
-        <updated>2021-01-02T05:40:41+02:00</updated>
+        <updated>2021-01-02T05:46:00+02:00</updated>
             <summary>
                 <![CDATA[
                     This script contains macros for various movement exploits in Cyberpunk 2077. Please open the script with a text editor and refer to&hellip;
@@ -28,6 +28,7 @@
             <![CDATA[
                 <p>This script contains macros for various movement exploits in Cyberpunk 2077.</p>
 <p>Please open the script with a text editor and refer to the comments inside explaining its usage and configuration. </p>
+<p>This script was tested with Cyberpunk 2077 version 1.06.</p>
 <p>Click the link below to obtain it:</p>
 <p><a href="https://github.com/zloboslav/cyberpunk-scripts/archive/main.zip" target="_blank" rel="noopener noreferrer">Download</a></p>
             ]]>
