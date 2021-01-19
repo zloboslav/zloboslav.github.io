@@ -3,7 +3,7 @@
     <title>zloboslav.github.io</title>
     <link href="https://zloboslav.github.io/feed.xml" rel="self" />
     <link href="https://zloboslav.github.io" />
-    <updated>2021-01-18T19:31:39+02:00</updated>
+    <updated>2021-01-19T19:04:26+02:00</updated>
     <author>
         <name>zloboslav</name>
     </author>
@@ -18,48 +18,47 @@
         <id>https://zloboslav.github.io/cyberpunk-2077-autohotkey-script.html</id>
             <category term="Cyberpunk 2077"/>
 
-        <updated>2021-01-18T19:31:39+02:00</updated>
+        <updated>2021-01-19T19:04:26+02:00</updated>
             <summary>
                 <![CDATA[
-                    Hi! :) Download is at the bottom, but please read my post! :) In this blog post I write about my Cyberpunk&hellip;
+                    Hi! :) Download is at the bottom, but please read my post! :) The movement exploits in Cyberpunk can all be performed&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong>Hi! :) Download is at the bottom, but please read my post! :)</strong></p>
-<p>In this blog post I write about my Cyberpunk 2077 scripts which automate the game's movement exploits.</p>
 <p>The movement exploits in Cyberpunk can all be performed with a keyboard or game pad, but they are cumbersome, tiring and require practising the skill to perform consistently. That's why I decided to implement them with AutoHotkey in this script.</p>
-<p>After a lot of trial and error I have found a good timing and order of executing the keystrokes. Then I discovered that the results are significantly better than doing it by hand. After testing a lot I have concluded that it is impossible to achieve such good results manually.</p>
-<p>For example the "power jump - air dodge - power jump" combo is at least 30% higher with the script than manually performing it. Also executing a k-jump from standstill is so much easier <br>The scripts are simple, but finding the timing took a while and that's why I'm proud of my achievement.</p>
-<p> </p>
+<p>After a lot of trial and error I have found a good timing and order of executing the keystrokes. Then I discovered that the results are significantly better than doing it by hand. After testing a lot I have concluded that it is impossible to achieve such good results manually. The scripts are simple, but finding the timing took a while and that's why I'm proud of my achievement.</p>
+<hr>
 <p><strong>Movement exploits in general</strong></p>
 <p>In case you are not aware of the movement exploits I have collected the following videos which explain them in detail with tutorials on how to perform them manually:</p>
 <p>Start here:<br><a href="https://www.youtube.com/watch?v=uxlJppuf9v8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uxlJppuf9v8</a></p>
 <p>Alternative k-jump:<br><a href="https://www.youtube.com/watch?v=Q9y7fXZiSlM" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=Q9y7fXZiSlM</a></p>
 <p>Power jump &gt; dodge &gt; power jump explanation<br><a href="https://www.youtube.com/watch?v=qIZsNr9mifY" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=qIZsNr9mifY</a></p>
-<p> </p>
+<hr>
 <p><strong>AutoHotkey</strong></p>
 <p>If you don't know what is AutoHotkey the following info is for you:</p>
 <p><a href="https://www.autohotkey.com" target="_blank" rel="noopener noreferrer">https://www.autohotkey.com</a></p>
-<p>You don't really need to understand AutoHotkey to use the script - you can always just install it, load the script and run it. But don't forget to close it after you close the game, because it sometimes may trigger outside of the game which is very annoying. Be careful about that.</p>
-<p>However AutoHotkey is not very difficult and you may need to modify some values depending on your cyberware anyways. Also by understanding it's basic scripting you can modify and make these scripts yourself, which is very fun and can be applied to almost any game! But do NOT use it for cheating online games or speed runs, because it's immoral and it will get you banned!</p>
-<p> </p>
+<p>You don't really need to understand AutoHotkey to use the script - you can just install it, load the script and run it.</p>
+<p><span style="color: #e03e2d;"><strong>Don't forget to close the script after you close the game, because sometimes it may trigger outside the game which is very annoying. Be careful about that.</strong></span></p>
+<p>AutoHotkey is not very difficult and you may need to modify some values depending on your cyberware anyways. Also by understanding it's basic scripting you can modify and make these scripts yourself, which is very fun and can be applied to almost any game! But do NOT use it for cheating online games or speed runs, because it's immoral and it will get you banned!</p>
+<hr>
 <p><strong>About my script</strong></p>
 <p>Currently I have implemented the following movement combos:</p>
-<p><strong>K-hop</strong> - stacks dodges in bullet time to obtain the speed and maintains auto-jump to keep momentum while the key is pressed. I'll try to update the k-hop to be more easily chain-able and bind it to a key allowing holding a standard direction key (WASD). Check for updates on this later. Currently I've made it to work while on the ground so it could be available as soon as you have "Kereznikov" and there wouldn't be any other requirements. Using the hotkey it doesn't chain as well as chaining manually and I'm not sure why yet.</p>
-<p><strong>Normal bunny hop</strong> - executes air dash and jump on key press. This still needs you to time your distance from the ground, but at least simplifies the previous 3 stroke combo into a single key, which for me is much easier and more endurable to keep up for a long time. What you need to do is to press the key in the air at consistent height before hitting the ground - then it does an air dash to accelerate and jumps from the ground maintaining momentum. If done correctly this is by far the fastest way to accelerate to great speeds - much faster than any k-hop method I've tested. However with this method it is more difficult to perform sharp turns. For this you need to hold a direction key while jumping in time. Check for updates later - I have a few ideas how to make it better.</p>
-<p><strong>High jump</strong> - executes <span style="color: #2dc26b;"><strong>power jump + air dodge + power jump</strong></span> with a single key. This has a second variant skipping the second jump and allowing for less height and alternate timing for your second jump, which I sometimes need. This is the highest jump possible, without modifying the game itself. For some unknown reason the timing of this script makes the jump at least 30% higher than possible manually and it is AMAZING! I'll try to rework it for a more comfortable way of activating while holding a direction key (WASD). Check for updates later.</p>
-<p><strong>Long jump aka k-jump</strong> - executes the <strong><span style="color: #2dc26b;">k-hop boost + jump + air dodge + jump</span></strong>.  It can be changed to a powered jump before the dash for some additional height and distance - I'm still deciding on the final variants so check for updates on this. This also has a variation without the 2nd jump. This is executed from a standstill position enabling you to align yourself precisely before the jump. It cannot be done while moving though - stop and release any movement keys before executing.</p>
-<p>I'm planning to include something with the Mantis Blades boost - check for updates later. I have yet to test it and see if I can discover more jumping boost combinations making the jumps even more amazing.</p>
+<p><strong>K-hop</strong> - stacks dodges in bullet time to obtain the speed and maintains auto-jump to keep momentum while the key is pressed. </p>
+<p><strong>K-hop Cyberware Requirements: </strong>Needs <strong><span style="color: #e67e23;">"Kereznikov"</span></strong> - it's very important to check which one you have because the higher grades REQUIRE you to modify the script timing in order to work. Please read about that in the script's comments. By default it works with the cheapest and earliest one. I'll try to make it universal for all grades in the future - check for update about that later.</p>
+<p><strong>K-hop Controls: </strong>Hold "Y" and release to stop.</p>
+<hr>
+<p><strong>High Jump:</strong> executes <span style="color: #2dc26b;"><strong>power jump + air dodge + optional second power jump if you tap Space.</strong><span style="color: #000000;"> </span></span>For some unknown reason the timing of this script makes the jump at least 30% higher than possible manually and it is AMAZING!</p>
+<p><strong>High Jump Cyberware Requirements: <span style="color: #e67e23;">"Fortified Ankles"</span> and <span style="color: #e67e23;">"Manoeuvring System"</span>.</strong></p>
+<p><strong>High Jump Controls: </strong>Control + Space while moving (WASD) or F3 without moving. Optionally press Space in the end to chain a second power jump.</p>
+<hr>
+<p><strong>Long Jump aka K-jump</strong>: executes <strong><span style="color: #2dc26b;">k-hop boost + power jump + air dodge + optional second power jump if you tap Space</span></strong>.  This is executed from a standstill position enabling you to align yourself precisely before the jump. It cannot be done while moving though - stop and release any movement keys (WASD) before executing.</p>
+<p><strong>Long Jump Cyberware Requirements: <span style="color: #e67e23;">"Kereznikov", "Fortified Ankles" and "Manoeuvring System". </span></strong></p>
+<p><strong>Long Jump Controls: </strong>Press F1. Optionally press Space in the end to chain a second power jump. </p>
+<hr>
 <p><span style="color: #e03e2d;"><strong>For more info and updates it is best to read my comments inside the script, which I keep updated while I write it.</strong></span> The text in this blog post will get updates only when I have time and if I don't forget.</p>
-<p> </p>
-<p><strong>Prerequisites</strong></p>
-<p>As explained in the previously linked clips, there are some prerequisites to be able to do the movement exploits. Without the required cyberware they are NOT possible. For your convenience please refer to the information below stating what cyberware is needed for which:</p>
-<p><strong>K-hop:</strong> Needs <span style="color: #e67e23;"><strong>"Kereznikov"</strong></span> - it's very important to check which one you have because the higher grades REQUIRE you to modify the script timing in order to work. Please read about that in the script's comments. By default works with the cheapest and earliest one. I'll try to make it universal for all grades ion the future - check for update about that later.</p>
-<p><strong>Normal bunny hop:</strong> Needs <span style="color: #e67e23;"><strong>"Manoeuvring System"</strong></span> for the dodge in the air which is required to be able to perform it.</p>
-<p><strong>High jump <span style="color: #2dc26b;">[power jump &gt; air dodge &gt; power jump]</span>:</strong> Needs <strong><span style="color: #e67e23;">"Fortified Ankles"</span></strong> and "Manoeuvring System".</p>
-<p><strong>Long jump <span style="color: #2dc26b;">[k-hop &gt; power jump &gt; air dodge &gt; power jump]</span>: </strong>Needs <span style="color: #e67e23;"><strong>"Kereznikov", "Fortified Ankles" </strong><span style="color: #000000;">and </span><strong>"Manoeuvring System"</strong></span>. The same thing about the timing applies here too.</p>
-<p> </p>
+<hr>
 <p><strong>Notes and downloads</strong></p>
 <p>Please remember to open the script with a text editor and refer to the comments inside explaining its usage and configuration in detail. </p>
 <p>This script was tested with Cyberpunk 2077 version 1.06. I haven't tested on any other version.</p>
