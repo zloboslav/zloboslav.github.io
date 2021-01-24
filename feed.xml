@@ -3,7 +3,7 @@
     <title>zloboslav.github.io</title>
     <link href="https://zloboslav.github.io/feed.xml" rel="self" />
     <link href="https://zloboslav.github.io" />
-    <updated>2021-01-19T19:04:26+02:00</updated>
+    <updated>2021-01-24T17:12:47+02:00</updated>
     <author>
         <name>zloboslav</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://zloboslav.github.io/cyberpunk-2077-autohotkey-script.html</id>
             <category term="Cyberpunk 2077"/>
 
-        <updated>2021-01-19T19:04:26+02:00</updated>
+        <updated>2021-01-24T17:12:47+02:00</updated>
             <summary>
                 <![CDATA[
                     Hi! :) Download is at the bottom, but please read my post! :) The movement exploits in Cyberpunk can all be performed&hellip;
@@ -47,7 +47,7 @@
 <p>Currently I have implemented the following movement combos:</p>
 <p><strong>K-hop</strong> - stacks dodges in bullet time to obtain the speed and maintains auto-jump to keep momentum while the key is pressed. </p>
 <p><strong>K-hop Cyberware Requirements: </strong>Needs <strong><span style="color: #e67e23;">"Kereznikov"</span></strong> - it's very important to check which one you have because the higher grades REQUIRE you to modify the script timing in order to work. Please read about that in the script's comments. By default it works with the cheapest and earliest one. I'll try to make it universal for all grades in the future - check for update about that later.</p>
-<p><strong>K-hop Controls: </strong>Hold "Y" and release to stop.</p>
+<p><strong>K-hop Controls: </strong>Hold "F4" and release to stop.</p>
 <hr>
 <p><strong>High Jump:</strong> executes <span style="color: #2dc26b;"><strong>power jump + air dodge + optional second power jump if you tap Space.</strong><span style="color: #000000;"> </span></span>For some unknown reason the timing of this script makes the jump at least 30% higher than possible manually and it is AMAZING!</p>
 <p><strong>High Jump Cyberware Requirements: <span style="color: #e67e23;">"Fortified Ankles"</span> and <span style="color: #e67e23;">"Manoeuvring System"</span>.</strong></p>
@@ -55,7 +55,7 @@
 <hr>
 <p><strong>Long Jump aka K-jump</strong>: executes <strong><span style="color: #2dc26b;">k-hop boost + power jump + air dodge + optional second power jump if you tap Space</span></strong>.  This is executed from a standstill position enabling you to align yourself precisely before the jump. It cannot be done while moving though - stop and release any movement keys (WASD) before executing.</p>
 <p><strong>Long Jump Cyberware Requirements: <span style="color: #e67e23;">"Kereznikov", "Fortified Ankles" and "Manoeuvring System". </span></strong></p>
-<p><strong>Long Jump Controls: </strong>Press F1. Optionally press Space in the end to chain a second power jump. </p>
+<p><strong>Long Jump Controls: </strong>Press F1. Optionally press Space in the end to chain a second power jump. Second variant uses F2 which is k-hump only so you can stop mid-air with backwards dodge.</p>
 <hr>
 <p><span style="color: #e03e2d;"><strong>For more info and updates it is best to read my comments inside the script, which I keep updated while I write it.</strong></span> The text in this blog post will get updates only when I have time and if I don't forget.</p>
 <hr>
