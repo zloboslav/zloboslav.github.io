@@ -3,7 +3,7 @@
     <title>zloboslav.github.io</title>
     <link href="https://zloboslav.github.io/feed.xml" rel="self" />
     <link href="https://zloboslav.github.io" />
-    <updated>2021-01-24T17:26:04+02:00</updated>
+    <updated>2021-01-26T22:17:30+02:00</updated>
     <author>
         <name>zloboslav</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://zloboslav.github.io/cyberpunk-2077-autohotkey-script.html</id>
             <category term="Cyberpunk 2077"/>
 
-        <updated>2021-01-24T17:26:04+02:00</updated>
+        <updated>2021-01-26T22:17:30+02:00</updated>
             <summary>
                 <![CDATA[
                     Hi! :) Download is at the bottom, but please read my post! :) The movement exploits in Cyberpunk can all be performed&hellip;
@@ -38,7 +38,7 @@
 <hr>
 <p><strong>AutoHotkey</strong></p>
 <p>If you don't know what is AutoHotkey the following info is for you:</p>
-<p><a href="https://www.autohotkey.com" target="_blank" rel="noopener noreferrer">https://www.autohotkey.com</a></p>
+<p><strong>Instructions:</strong><br>Download and install AutoHotkey from https://www.autohotkey.com<br>With AutoHotkey installed to run the script just double-click the script file.<br>The running script adds its icon to the taskbar notification area (commonly known as the tray).<br>Right-click the tray icon to show the tray menu, which has the following options:<br>    Open - Open the script's main window.<br>    Help - Open the AutoHotkey offline help file.<br>    Window Spy - Displays various information about a window.<br>    Reload This Script<br>    Edit This Script<br>    Suspend Hotkeys - Suspend or unsuspend hotkeys.<br>    Pause Script - Pause or unpause the script.<br>    Exit - Exit the script.</p>
 <p>You don't really need to understand AutoHotkey to use the script - you can just install it, load the script and run it.</p>
 <p><span style="color: #e03e2d;"><strong>Don't forget to close the script after you close the game, because sometimes it may trigger outside the game which is very annoying. Be careful about that.</strong></span></p>
 <p>AutoHotkey is not very difficult and you may need to modify some values depending on your cyberware anyways. Also by understanding it's basic scripting you can modify and make these scripts yourself, which is very fun and can be applied to almost any game! But do NOT use it for cheating online games or speed runs, because it's immoral and it will get you banned!</p>
