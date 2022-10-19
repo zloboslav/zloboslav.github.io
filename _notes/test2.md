@@ -1,1 +1,4 @@
-test2
+---
+layout: note
+---
+test
