@@ -2,5 +2,5 @@ title: my blog or something
 collections:
   notes:
   output: true
-  permalink: /notes/:path/
+  permalink: /:notes/:path/
   
