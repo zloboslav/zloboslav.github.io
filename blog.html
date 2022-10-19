@@ -5,11 +5,13 @@ title: Blog
 <h1>Posts</h1>
 
 <ul>
-  {% for page in site.pages %}
+  {% for note in site.notes %}
     <li>
 
-      <h2><a href="{{ page.url }}"></a></h2>
-
+      <h2>
+          <a href="{{ note.url }}">{{ note.url }}</a>
+      </h2>
+          {{ note.content }}
     </li>
   {% endfor %}
 </ul>
