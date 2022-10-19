@@ -6,4 +6,4 @@ defaults:
       path: ""
       type: "notes"
     values:
-      layout: "note"
+      layout: "default"
