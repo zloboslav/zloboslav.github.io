@@ -10,12 +10,6 @@ layout: default
           <a href="{{ post.url }}">{{ post.title }}{{ post.date }}{{ post.url }}</a>
        </li>
       {% endfor %}
-
-      {% for note in site.notes %}
-        <li>
-          <a href="{{ note.url }}">{{ note.title }}</a>
-        </li>
-      {% endfor %}
     </ol>
   </body>
 </html>
