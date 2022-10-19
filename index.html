@@ -7,9 +7,9 @@ layout: default
     
     
   {% for note in site.notes %}
-    
-  <a href="{{ note.url }}">{{ note.title }}</a><br>
-    
+    <ol>
+      <li><a href="{{ note.url }}">{{ note.title }}</a></li>
+    </ol>
   {% endfor %}
 
     
