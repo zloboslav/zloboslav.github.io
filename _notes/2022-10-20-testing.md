@@ -1,0 +1,10 @@
+---
+layout: default
+---
+banica
+boza
+praz  
+ocet  
+zele 
+kartofi 
+luk
