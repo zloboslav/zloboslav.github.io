@@ -9,3 +9,7 @@ defaults:
       type: "notes"
     values:
       layout: "note"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
