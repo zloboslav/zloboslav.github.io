@@ -1,7 +1,4 @@
 title: no title
-author:
-  name: zloboslav
-  email: no email
 description: > # this means to ignore newlines until "show_excerpts:"
   no description
 show_excerpts: false # set to true to show excerpts on the homepage
