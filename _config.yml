@@ -5,9 +5,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: no
-    github:  no
-    youtube: no
+    twitter: https://twitter.com/_zloboslav
+    github:  https://github.com/zloboslav
+    youtube: https://www.youtube.com/zloboslav
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
