@@ -1,9 +1,12 @@
 collections:
   notes:
     output: true
+<<<<<<< HEAD
 defaults:
   - scope:
       path: ""
       type: "notes"
     values:
       layout: "note"
+=======
+>>>>>>> parent of 02224e3 (Update _config.yml)
