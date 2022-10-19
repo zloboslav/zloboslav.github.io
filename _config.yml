@@ -1,1 +1,5 @@
 title: my blog or something
+collections:
+  pages:
+  output: true
+  permalink: /:collection/:path/
