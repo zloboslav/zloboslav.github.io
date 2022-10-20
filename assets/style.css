@@ -28,3 +28,7 @@ table {
     margin: auto;
     max-width: 80ch;
   }
+
+th, td {
+    padding: 10px;
+  }
