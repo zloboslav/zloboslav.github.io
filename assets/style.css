@@ -1,7 +1,7 @@
 body {
       background-color: black;
       color: cyan;
-      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      font-family: Andale Mono,AndaleMono,monospace;
       
     }
     
@@ -26,7 +26,6 @@ div {
 
 table {
     margin: auto;
-    max-width: 80ch;
   }
 
 th, td {
