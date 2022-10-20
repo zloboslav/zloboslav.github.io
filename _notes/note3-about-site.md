@@ -17,7 +17,7 @@ Yet again I couldn't make it work.
 Then it suddenly worked, but I broke it again many times.  
 I started to slowly somewhat understand WTF is going on.  
 Then I *DELETED EVERYTHING* except the absolute bare minimum functionality.  
-It became much more minimal than any minimal themes I had found...
+It became much more minimal than any minimal themes I had found...  
 *Maybe it is the most minimal of all?*  
 And then I started configuring and styling from scratch.  
 I manually added only what I want - the *Arch way*, lol XD  
