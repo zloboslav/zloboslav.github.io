@@ -28,12 +28,6 @@ th, td {
     padding: 5px;
   }
 
-/* CODE BLOCK colors */
-pre {
-background: white;
-color: black;
-}
-
 /* RED letters when italic in .md file  */
 em {
       color: OrangeRed;
