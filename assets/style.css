@@ -1,6 +1,6 @@
 /* this css affects in the default layout and therefore affects everything */
 body {
-      
+      background-color:#373b3e;
       background-image: url('https://zloboslav.github.io/assets/images/hatsune_miku-1953064601-scale9.00-k_euler_a-stable-diffusion-1.4-dark.png');
       color:#86cecb;
       font-family: monospace;
