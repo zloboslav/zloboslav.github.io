@@ -1,6 +1,6 @@
 body {
-      background-color:  #373b3e;
-      color: #86cecb;
+      background-color:#373b3e;
+      color:#86cecb;
       font-family: Andale Mono,AndaleMono,monospace;
       
     }
@@ -15,16 +15,10 @@ a:hover {
     
 h3 {text-align: center;}
 
-p {
-    max-width: 80ch;
-  }
-
 div {
     margin: auto;
     max-width: 80ch;
   }
-
-
 
 th, td {
     padding: 5px;
