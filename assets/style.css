@@ -4,8 +4,14 @@ body {
       color:#86cecb;
       font-family: monospace;
       font-size: 1.1rem;
+      animation: fade 0.5s;
     }
     
+    @keyframes fade {
+      0% {opacity: 0;}
+      100% {opacity: 1;}   
+  }
+
 /* hyperlink style */
 a {
       color: hotpink;
