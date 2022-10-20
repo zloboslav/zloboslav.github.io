@@ -1,16 +1,11 @@
 /* this css affects in the default layout and therefore affects everything */
 body {
+      background-color:#0c1619;
       background-image: url('https://zloboslav.github.io/assets/images/hatsune_miku-1953064601-scale9.00-k_euler_a-stable-diffusion-1.4-dark.png');
       color:#86cecb;
       font-family: monospace;
       font-size: 1.1rem;
-      animation: fade 0.5s;
     }
-    
-    @keyframes fade {
-      0% {opacity: 0;}
-      100% {opacity: 1;}   
-  }
 
 /* hyperlink style */
 a {
