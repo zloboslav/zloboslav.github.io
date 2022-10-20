@@ -1,6 +1,6 @@
 body {
-      background-color: black;
-      color: cyan;
+      background-color:  #373b3e;
+      color: #86cecb;
       font-family: Andale Mono,AndaleMono,monospace;
       
     }
@@ -24,9 +24,7 @@ div {
     max-width: 80ch;
   }
 
-table {
-    margin: auto;
-  }
+
 
 th, td {
     padding: 5px;
