@@ -3,34 +3,51 @@ layout: default
 ---
 <!DOCTYPE html>
 <html>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      
+    }
+    
+    a:link {
+      color: hotpink;
+    }
+    a:visited {
+      color: gray;
+    }
+    
+  </style>
+
   <body>   
+    <center>
+    <ol style="list-style: decimal inside;">
+      <table>
+        <tr>
+          <td>#&nbsp</th>
+          <td>TITLE</th>
+          <td>DATE</th>
+        </tr>
 
-<ol style="list-style: decimal inside;">
-<table>
-  <tr>
-    <td>#&nbsp</th>
-    <td>TITLE</th>
-    <td>DATE</th>
-  </tr>
-
-{% for note in site.notes %}
- <tr>
- <td style="display: list-item;"></td>
- <td><a href="{{ note.url }}">{{ note.title }}</a></td>
- <td>{{ note.date | date: '%Y-%m-%d'}}</td>
- </tr>
-{% endfor %}
+    {% for note in site.notes %}
+        <tr>
+          <td style="display: list-item;"></td>
+          <td><a href="{{ note.url }}">{{ note.title }}</a></td>
+          <td>{{ note.date | date: '%Y-%m-%d'}}</td>
+        </tr>
+    {% endfor %}
  
-{% for post in site.posts %}
- <tr>
- <td style="display: list-item;"></td>
- <td><a href="{{ post.url }}">{{ post.title }}</a></td>
- <td>{{ post.date | date: '%Y-%m-%d'}}</td>
- </tr>
-{% endfor %}
+    {% for post in site.posts %}
+        <tr>
+          <td style="display: list-item;"></td>
+          <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          <td>{{ post.date | date: '%Y-%m-%d'}}</td>
+        </tr>
+    {% endfor %}
  
-</table>
-</ol> 
-
+      </table>
+    </ol> 
   </body>
 </html>
