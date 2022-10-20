@@ -1,10 +1,11 @@
 body {
       background-color:#373b3e;
       color:#86cecb;
-      font-family: Andale Mono,AndaleMono,monospace;
+      font-family: Droid Sans Mono;
       
     }
     
+/* hyperlink colors */
 a {
       color: hotpink;
       text-decoration: none
@@ -12,23 +13,28 @@ a {
 a:hover {
       text-decoration: underline;
     }
-    
+
+/* small header colors */
 h3 {text-align: center;}
 
+/* Positions and sizes everything, because <div> encapsulates the default layout */
 div {
     margin: auto;
     max-width: 80ch;
   }
 
+/* Table cell padding */
 th, td {
     padding: 5px;
   }
 
+/* CODE BLOCK colors */
 pre {
 background: white;
 color: black;
 }
 
+/* RED letters when italic in .md file  */
 em {
       color: OrangeRed;
 }
