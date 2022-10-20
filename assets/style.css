@@ -18,3 +18,14 @@ h3 {text-align: center;}
 p {
     max-width: 80ch;
   }
+
+div {
+    margin: auto;
+    border: 2px solid yellow;
+    padding: 10px;
+  }
+
+table{
+    border: 2px solid yellow;
+    margin: auto;
+  }
