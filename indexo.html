@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+  <body>   
+    <ol>
+
+      {% for note in site.notes %}
+        <li>
+          <a href="{{ note.url }}">{{ note.title }}<br>{{ note.date | date: '%Y-%m-%d'}}</a><br>
+        </li>
+      {% endfor %}
+
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}<br>{{ post.date | date: '%Y-%m-%d'}}</a><br>
+       </li>
+      {% endfor %}
+
+    </ol>
+  </body>
+</html>
