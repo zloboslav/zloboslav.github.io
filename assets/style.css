@@ -23,3 +23,12 @@ div {
 th, td {
     padding: 5px;
   }
+
+pre {
+background: white;
+color: black;
+}
+
+em {
+      color: OrangeRed;
+}
