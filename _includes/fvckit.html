@@ -1,55 +1,47 @@
-<!DOCTYPE html>
-<html>
-
 <style>
 
-#container{
-  margin-top: 2.2em;
-}
-
-div{
-  display: inline-block;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 80px;
-}
-
-#table{
-  animation: table-flip 2s infinite;
-  position: relative;
-}
-
-.arm{
-  animation: arm-rotate 2s infinite;
-  position: relative;
-}
-
-@keyframes table-flip {
-  0% {  left: 0px; top: 0em; transform: rotate(-180deg);  }
-  24% {  top: -2em;  }
-  60% { left: 0px; top: 0em; transform: rotate(0deg); }
-  80% { left: 0px; top: 0em; transform: rotate(0deg); }
-  100% {  left: 0px; top: 0em; transform: rotate(-180deg);  }
-}
-
-@keyframes arm-rotate {
-  0% { top: 0.2em; transform: rotate(90deg); }
-  20% { top: 0em;transform: rotate(0deg); }
-  50% { top: 0em;transform: rotate(0deg); }
-  100% { top: 0.2em;transform: rotate(90deg); }
-}
-</style>
-
-<body>
-<center>
-<div id="container">
-  <div class="guy">
-    (<div class="arm">╯</div>°□°）<div class="arm">╯</div>
-  </div>
-  <div id="table">┻━┻</div>
+  #container{
+    margin-top: 2.2em;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 80px;
+  }
+  
+  div{
+    display: inline-block;
+  }
+  
+  #table{
+    animation: table-flip 2s infinite;
+    position: relative;
+  }
+  
+  .arm{
+    animation: arm-rotate 2s infinite;
+    position: relative;
+  }
+  
+  @keyframes table-flip {
+    0% {  left: 0px; top: 0em; transform: rotate(-180deg);  }
+    24% {  top: -2em;  }
+    60% { left: 0px; top: 0em; transform: rotate(0deg); }
+    80% { left: 0px; top: 0em; transform: rotate(0deg); }
+    100% {  left: 0px; top: 0em; transform: rotate(-180deg);  }
+  }
+  
+  @keyframes arm-rotate {
+    0% { top: 0.2em; transform: rotate(90deg); }
+    20% { top: 0em;transform: rotate(0deg); }
+    50% { top: 0em;transform: rotate(0deg); }
+    100% { top: 0.2em;transform: rotate(90deg); }
+  }
+  </style>
+  
+  <center>
+  <div id="container">
     <div class="guy">
-  </div>
-</div>
-
-</body>
-</html>
-
+      (<div class="arm">╯</div>°□°）<div class="arm">╯</div>
+    </div>
+    <div id="table">┻━┻</div>
+      <div class="guy">
+    </div>
+  </div>  
