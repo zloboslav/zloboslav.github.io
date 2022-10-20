@@ -1,7 +1,7 @@
 /* this css affects in the default layout and therefore affects everything */
 body {
       background-color:#373b3e;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url('{{ site.baseurl }}/assets/images/2022-10-20-23-36-47-1-hatsune_miku-1953064601-scale9.00-k_euler_a-stable-diffusion-1.4.png');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/assets/images/2022-10-20-23-36-47-1-hatsune_miku-1953064601-scale9.00-k_euler_a-stable-diffusion-1.4.png');
       color:#86cecb;
       font-family: monospace;
       font-size: 1rem;
