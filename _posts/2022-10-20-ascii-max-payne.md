@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ASCII art test post with Max Payne
+title: ASCII art Max Payne by David Palmer
 ---
     Art by David Palmer
     
