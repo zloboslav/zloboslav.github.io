@@ -29,7 +29,12 @@ th, td {
     padding: 5px;
   }
 
-/* RED letters for italic when processing any .md file  */
+/* Color for all italic letters */
 em {
       color: OrangeRed;
 }
+
+/* Color for all bold letters */
+b, strong {
+  color: yellow;
+  }
