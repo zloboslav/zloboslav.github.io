@@ -2,8 +2,9 @@
 layout: default
 title: Wesley Willis info
 ---
+# Wesley Willis info
 
-# His music and lyrics:
+## His music and lyrics:
 
 A YouTube channel with a lot of his keyboard songs where the uploader puts most of the lyrics in the description.  
 Playlist:  
@@ -21,7 +22,7 @@ Reddit post about his discography:
 
 ***
 
-# About his playing style with auto-accompaniment:
+## About his playing style with auto-accompaniment:
 
 He used these Technics arranger keyboards: KN-1000, KN-1200, KN-2000, KN7000   
 KN-3000 and SX-FA1 will work, they have the same styles (not sure if all or just some).  
@@ -49,7 +50,7 @@ A big Technics info site, I haven't registered yet:
 
 ***
 
-# SOFTWARE BASED auto-accompaniment, DIY:
+## SOFTWARE BASED auto-accompaniment, DIY:
 
 ORG24 - free (limited), cheap, PC version is better, has mobile verions too  
 [https://www.sofeh.com/](https://www.sofeh.com/)
@@ -100,7 +101,7 @@ Coolsoft VirtualMIDISynth - free, use as midi out device when needed, works with
 
 ***
 
-# More unsorted / unedited info and notes:
+## More unsorted / unedited info and notes:
 
 What worked for me so far:  
 
